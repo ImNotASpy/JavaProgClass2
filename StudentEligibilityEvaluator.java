@@ -2,7 +2,7 @@
 
 import java.util.Scanner;  // Import the Scanner class
 
-class Main {
+class StudentEligibilityEvaluator {
   public static void main(String[] args) {
     Scanner name = new Scanner(System.in);  // name Scanner object
     System.out.println("Enter your name: ");
