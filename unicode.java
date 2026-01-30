@@ -45,10 +45,22 @@ public class unicode {
     int x = i + 1; //next unicode character
     char nextChar = (char) x;
     System.out.println("The next Unicode character is: " + nextChar);
+    user.nextLine();
 
 
     //part 3
     System.out.println("Enter a first and last name separated by a space: ");
     String fullName = user.nextLine(); //full name input
+
+    System.out.println("The length of the string is: " + fullName.length());
+    System.out.println("The first character is: " + fullName.charAt(0));
+
+    String firstName = fullName.substring(0, fullName.indexOf(' '));
+    String lastName = fullName.substring(fullName.indexOf(' ') + 1);
+    System.out.println(firstName);
+    System.out.println(lastName);
+    System.out.println("Upper Case: " + fullName.toUpperCase());
+
+
   }
 }
