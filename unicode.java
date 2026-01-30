@@ -62,5 +62,8 @@ public class unicode {
     System.out.println("Upper Case: " + fullName.toUpperCase());
 
 
+    //part 4
+    System.out.printf("Summary: %s has %d characters and the first character is '%c'.%n", fullName, fullName.length(), fullName.charAt(0));
+
   }
 }
