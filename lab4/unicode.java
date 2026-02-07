@@ -1,3 +1,4 @@
+package lab4;
 
 import java.util.Scanner;  // Import the Scanner class
 public class unicode {

@@ -1,3 +1,4 @@
+package Lab3;
 import java.util.Scanner;  // Import the Scanner class
 class StudentEligibilityEvaluator {
   public static void main(String[] args) {
