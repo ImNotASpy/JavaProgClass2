@@ -1,4 +1,4 @@
-package Lab3;
+package lab3;
 import java.util.Scanner;  // Import the Scanner class
 class StudentEligibilityEvaluator {
   public static void main(String[] args) {
@@ -46,14 +46,14 @@ class StudentEligibilityEvaluator {
         System.out.println("Eligibility for program: True");
     }
     else {
-        isEligible = false;      
+        isEligible = false;
         System.out.println("Eligibility for program: false");
     }
 
 //Scholarship Status
     String scholarship = (userGPA >= 3.5 && isEligible) ? "Full Scholarship"
                         : (userGPA >= 2.5 && isEligible) ? "Partial Scholarship"
-                        : "No Scholarship";                        ;
+                        : "No Scholarship";
     System.out.println("Scholarship Status: " + scholarship);
 
 //Credit Hours
